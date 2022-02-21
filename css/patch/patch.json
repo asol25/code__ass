@@ -1,0 +1,41 @@
+{
+    "tittle" : [
+        {
+            "name" : "TANKS CAN TAKE IT",
+            "caption" : "Resilient bruisers, Tanks excel at shrugging off blows that would obliterate lesser allies.",
+            "image" : "https://am-a.akamaihd.net/image?resize=1349:&quality=preserve&f=https://lolstatic-a.akamaihd.net/frontpage/apps/prod/playnow-global/en_GB/f9caf54ff66c997b27b3d15cc7cf23212c91fb43/assets/img/champions_tanks.jpg"
+        },
+
+        {
+            "name" : "FIGHTERS LOVE TO DUEL",
+            "caption" : "A balance of power and defence, Fighters are born to brawl, preferring their bouts up close and personal.",
+            "image" : "https://am-a.akamaihd.net/image?resize=1349:&quality=preserve&f=https://lolstatic-a.akamaihd.net/frontpage/apps/prod/playnow-global/en_GB/f9caf54ff66c997b27b3d15cc7cf23212c91fb43/assets/img/champions_fighter.jpg"
+        },
+
+        {
+            "name" : "MAGES SURGE WITH POWER",
+            "caption" : "Aggressive casters, Mages seek to destroy opponents through a range of mystical attacks, spells and abilities.",
+            "image" : "https://am-a.akamaihd.net/image?resize=1349:&quality=preserve&f=https://lolstatic-a.akamaihd.net/frontpage/apps/prod/playnow-global/en_GB/f9caf54ff66c997b27b3d15cc7cf23212c91fb43/assets/img/champions_mages.jpg"
+        },
+
+        {
+            "name" : "ASSASSINS CRAVE THE HUNT",
+            "caption" : "Masters of precision, Assassins are agile hunters on the lookout for the perfect kill.",
+            "image" : "https://am-a.akamaihd.net/image?resize=1349:&quality=preserve&f=https://lolstatic-a.akamaihd.net/frontpage/apps/prod/playnow-global/en_GB/f9caf54ff66c997b27b3d15cc7cf23212c91fb43/assets/img/champions_assassins.jpg"
+        },
+
+        {
+            "name" : "MARKSMEN BRING THE PAINT",
+            "caption" : "Ranged fighters, Marksmen are powerful but fragile. While they rely on their team to soak up damage, teams rely on them to deal it.",
+            "image": "https://am-a.akamaihd.net/image?resize=1349:&quality=preserve&f=https://lolstatic-a.akamaihd.net/frontpage/apps/prod/playnow-global/en_GB/f9caf54ff66c997b27b3d15cc7cf23212c91fb43/assets/img/champions_marksmen.jpg"
+        },
+
+        
+        {
+            "name" : "SUPPORTS HAVE YOUR BACK",
+            "caption" : "Stalwart defenders, Supports control the battlefield by augmenting allies and locking down enemies.",
+            "image" : "https://am-a.akamaihd.net/image?resize=1349:&quality=preserve&f=https://lolstatic-a.akamaihd.net/frontpage/apps/prod/playnow-global/en_GB/f9caf54ff66c997b27b3d15cc7cf23212c91fb43/assets/img/champions_support.jpg"
+        }
+
+    ]
+}

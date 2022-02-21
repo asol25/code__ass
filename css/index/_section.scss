@@ -1,0 +1,118 @@
+//variable
+$color--background: #08121b;
+
+title {
+    border-radius: 16px;
+}
+.section--background {
+    margin-top: 3rem;
+    background-color: $color--background;
+    color: white;
+    height: 100%;
+}
+
+.caption--footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.caption--box:nth-child(1) {
+    background-image: radial-gradient(127.36% 82.46% at 50% 17.54%, rgba(21, 24, 30, 0) 10.31%, rgb(21, 24, 30) 74.7%),
+    url(/img/pro-player-1.png);
+}
+
+.caption--box:nth-child(2) {
+    background-image: radial-gradient(127.36% 82.46% at 50% 17.54%, rgba(21, 24, 30, 0) 10.31%, rgb(21, 24, 30) 74.7%),
+    url(/img/pro-player-2.png);
+    background-position: center;
+}
+
+.caption--box:nth-child(3) {
+    background-image: radial-gradient(127.36% 82.46% at 50% 17.54%, rgba(21, 24, 30, 0) 10.31%, rgb(21, 24, 30) 74.7%),
+    url(/img/pro-player-3.png);
+}
+.caption--box {
+    margin: 6px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    object-fit: cover;
+    width: 350px;
+    border-radius: 15px;
+}
+
+.caption--box {
+    padding-left: 60px;
+    padding-bottom: 20px;
+    display: flex;
+    margin: 15px 10px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+
+    p {
+        font-size: 40px;
+        max-width: 200px;
+        margin-bottom: 20px;
+        text-align: left;
+        font-weight: 550;
+    }
+    a {
+        color: white;
+    }
+
+    a::after {
+        content: "\00BB";
+        margin-left: 5px;
+    }
+}
+
+.caption {
+    &--top {
+        padding-top: 1rem;
+        font-size: 24px;
+    }
+
+    &--mid {
+        padding-top: 1rem;
+        font-size: 50px;
+        font-style: italic;
+    }
+}
+
+.section--colection {
+    background-color: $color--background;
+    color: white;
+    height: 100%;
+
+    .caption--footer--clolection {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 175 10px 175px;
+        gap: 10px;
+        padding: 30px;
+        margin: 0 auto;
+    }
+
+    .section--colection--layout img {
+        width: 100%;
+        object-fit: fill;
+    }
+}
+
+.section--colection--layout {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform .2s;
+}
+
+.section--colection--layout:first-child {
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+.section--colection--layout:last-child {
+    grid-column: 3/5;
+    grid-row: 2/4;
+}

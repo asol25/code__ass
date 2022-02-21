@@ -1,0 +1,53 @@
+
+body {
+	// font-family: 'Bebas Neue', cursive;
+    background-color: black;
+}
+.header {
+    display: flex;
+    justify-content: start;
+
+    &--img {
+        margin: 2rem 0 0 2rem;
+    }
+
+    &--img img {
+        width: 132px;
+        height: 54px;
+    }
+
+    &--language {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        top: 48px;
+        right: 48px;
+
+        label {
+            margin-right: 10px;
+            color: $color--text;
+        }
+    }
+
+    &--select {
+        height: 40px;
+        width: 400px;
+
+        select {
+            height: 100%;
+            width: 100%;
+            border: 2px solid $color--text;
+            color: $color--text;
+            background: black;
+
+            option {
+                color: $color--text;
+                padding: 0px 2px 1px;
+            }
+
+            #select-region-desktop:focus {
+                border: 2px solid $color--text;
+            }
+        }
+    }
+}

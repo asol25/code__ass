@@ -1,0 +1,61 @@
+.footer {
+    max-width: 100%;
+    min-height: 337px;
+    background: #111111;
+    border-top: 2px solid #3a3939;
+
+    &--logo {
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 3.5rem;
+    }
+
+    .svg_logo {
+        fill: #d1d1d1;
+    }
+
+    .riotbar-copyright {
+        font-family: "FF Mark W05";
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 1.316;
+        margin: 0 auto;
+        max-width: 500px;
+        text-align: center;
+        color: #7e7e7e;
+        transition: color 0.2s linear;
+        word-break: keep-all;
+    }
+
+    .riotbar-legal-links {
+        margin-top: 3.5rem;
+        ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        li a {
+            display: block;
+            margin: 0 5px;
+            font-size: 11px;
+            font-weight: bold;
+            text-decoration: underline;
+            color: #7e7e7e;
+            transition: all 0.2s linear;
+        }
+    }
+    
+    .riotbar-game-ratings {
+        margin-top: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 3rem;
+
+        a {
+            margin: 0 .7rem 0;
+        }
+    }
+}
