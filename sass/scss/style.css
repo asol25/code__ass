@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  max-width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  letter-spacing: .00875em;
+  line-height: 1.5em;
+}
+
+h1, h2, h3, p, span, a {
+  font-family: "Nunito", sans-serif;
+}
+
+header div {
+  overflow: hidden;
+  position: fixed;
+  -webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  top: 0;
+  z-index: 30;
+  height: 50px;
+  margin-bottom: 50px;
+}
+
+section {
+  display: block;
+  width: 95%;
+  padding-top: 60px;
+  margin: 0 auto;
+}
+
+section h2 {
+  font-size: 2em;
+  font-weight: bold;
+  max-width: 520px;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+section h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+section .content {
+  text-align: center;
+  width: 95%;
+  margin: 0 auto;
+}
+
+section .content .content-div-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+}
+
+section .content .content-div-grid .content-div-img {
+  margin: 20px;
+  -ms-flex-item-align: baseline;
+      align-self: baseline;
+}
+
+section .content .content-div-grid .content-div-img .set-img {
+  width: 70%;
+  overflow: hidden;
+  height: 100%;
+  padding-bottom: 20px;
+}
+
+section .content .content-div-grid .content-div-img h3 {
+  text-align: start;
+}
+
+section .content .content-div-grid .content-div-img p {
+  padding-top: 5px;
+  text-align: left;
+  line-height: 1.7rem;
+  font-family: "Nunito", sans-serif;
+}
+
+section .card--footer {
+  text-align: center;
+  width: 100%;
+}
+
+section .card--footer h2 {
+  margin-bottom: 64px;
+  width: 100%;
+}
+
+section .card--footer .card--content {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-rows: minmax(20px, auto);
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+section .card--footer .card--grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr;
+      grid-template-columns: auto 1fr;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+section .card--footer .card--grid .card--img {
+  max-width: 100%;
+  padding: 0;
+}
+
+section .card--footer .card--grid .card--infomation {
+  text-align: left;
+}
+
+section .card--footer .card--grid .card--infomation h3 {
+  margin: 0px 0px 4.35px;
+}
+
+.diYnYN {
+  width: 100%;
+  margin: 100px auto 48px;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.diYnYN .section--footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.diYnYN h2 {
+  text-align: center;
+  margin: 24px auto;
+  font-size: 2em;
+  font-weight: bold;
+  max-width: 520px;
+}
+
+.diYnYN .btn--xl {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-weight: lighter;
+  font-size: .875rem;
+  height: 48px;
+  background-color: black;
+  border-radius: 0.25rem;
+  border: 1px black solid;
+  text-decoration: none;
+}
+
+.diYnYN .btn--xl span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-family: "Nunito", sans-serif;
+}
+
+.footer--container {
+  width: 100%;
+}
+
+.footer--container .footer--wrapper {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.footer--container .footer--wrapper .container--footer .heading--sm {
+  font-size: .75rem;
+  font-weight: 600;
+  line-height: 1rem;
+  color: black;
+}
+
+.footer--container .footer--wrapper .container--footer .footer-gird {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -webkit-column-gap: 32px;
+          column-gap: 32px;
+}
+
+.footer--container .footer--wrapper .container--footer .footer-gird .footer--flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-column-gap: 2rem;
+          column-gap: 2rem;
+}
+
+.footer--container .footer--wrapper .container--footer .footer-gird .footer--flex a {
+  text-decoration: none;
+  color: black;
+  margin: 16px 0 0;
+}
+
+.footer--container .footer--wrapper .container--footer .footer-gird .footer--flex .container--option {
+  margin: 12px 0;
+  display: block;
+}
+
+.footer--container .footer--wrapper .container--footer .footer-gird .footer--flex .container--option .text-current {
+  border: 1px solid;
+  border-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  padding: 0;
+}
+
+.footer--container .footer--wrapper .container--footer .footer-gird .footer--flex .container--option .text-current span {
+  font-weight: 400;
+  padding: 0;
+  font-size: initial;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+.footer--container .footer--wrapper .container--footer .footer-gird .footer--flex .container--option .text-current .container--menu {
+  display: inline-block;
+  overflow: hidden;
+  width: 16px;
+  height: 16px;
+  margin-left: 6px;
+  margin-right: 0;
+  line-height: 1.15;
+  margin-top: .20em;
+}
+
+.footer--container .footer--wrapper .container--footer .footer-gird .footer--flex .container--option .text-current .container--menu .h--full {
+  width: 100%;
+  height: 100%;
+}
+
+.footer--container .footer--wrapper .container--footer .footer-gird .footer--flex .item--center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer--container .footer--wrapper .container--footer .footer-gird .footer--flex .item--center .container--menu {
+  margin-right: .5em;
+}
+/*# sourceMappingURL=style.css.map */
