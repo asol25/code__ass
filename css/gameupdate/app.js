@@ -1,7 +1,7 @@
 const button = document.querySelectorAll("button.btn");
 const main = document.getElementById("section--content");
 
-const APIURL = '../css/gameupdate/data.json';
+const APIURL = '../json/update/data.json';
 
 // async function loadAsset() {
 //     const resp = await fetch(APIURL);
