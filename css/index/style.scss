@@ -367,17 +367,17 @@ a {
         text-align: center;
         align-items: center;
     }
+}
 
-    @media (max-width: 320px) {
-        .footer--box--container {
-            max-width: 500px;
-        }
-        .img--content {
-            max-width: 300px;
-        }
-        .caption--box {
-            max-width: 260px;
-        }
+@media (max-width: 320px) {
+    .footer--box--container {
+        max-width: 500px;
+    }
+    .img--content {
+        max-width: 300px;
+    }
+    .caption--box {
+        max-width: 260px;
     }
 }
 

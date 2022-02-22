@@ -712,7 +712,7 @@ title {
   }
 }
 
-@media (max-width: 414px) and (max-width: 320px) {
+@media (max-width: 320px) {
   .footer--box--container {
     max-width: 500px;
   }
