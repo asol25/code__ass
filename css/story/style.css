@@ -169,7 +169,7 @@ a {
 }
 
 .footer {
-  font-family: "Bebas Neue", cursive;
+  font-family: "FF Mark W05",Arial,sans-serif;
 }
 
 .footer a {
@@ -193,6 +193,7 @@ a {
   display: flex;
   padding: 20px 0;
   margin: 0 170px;
+  text-align: center;
 }
 
 .footer--menu--link {

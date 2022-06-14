@@ -29,6 +29,9 @@ body {
 	line-height: 1;
 	font-family: "FF Mark W05",Arial,sans-serif;
 }
+:root {
+	font-family: "FF Mark W05",Arial,sans-serif;
+}
 ol, ul {
 	list-style: none;
 }

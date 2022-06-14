@@ -52,7 +52,7 @@ a {
         display: block;
         margin-right: 180px;
         margin-left: 35px;
-        transition: transform .4s;
+        transition: transform 0.4s;
     }
 
     &--logo:hover {
@@ -173,7 +173,5 @@ a {
 //         padding-right: 10px;
 //     }
 
-
-
 @import "../gameupdate/css/section";
-@import "/ASS/css/footer";
+@import "../story/footer";
